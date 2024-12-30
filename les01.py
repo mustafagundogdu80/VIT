@@ -106,20 +106,18 @@ number1 = int(input("Birinci sayı:"))
 number2 = int(input("İkinci sayı:"))
 odd_sum = 0
 even_sum = 0
-start_number = number1
-finish_number = number2
+add_number = 1
 if number1 > number2 :
-    start_number = number2
-    finish_number = number1
-list_odd= list()
-list_even= list()
-for i in range(start_number,finish_number+1):
+    add_number = -1
+# list_odd= list()
+# list_even= list()
+for i in range(number1,number2+add_number,add_number):
     if i % 2 == 0:
-        list_even.append(i)
+        # list_even.append(i)
         even_sum += i
     else:
         odd_sum += i
-        list_odd.append(i)
-print(f"{number1} ve {number2} arasındaki Tek sayıların toplamı: {odd_sum}, Çift sayıların toplamı:{even_sum}")
-print(sum(list_odd))
-print(sum(list_even))
+        # list_odd.append(i)
+print(f"{number1} ve {number2} arasındaki Tek sayıların toplamı: {odd_sum}, Çift sayıların toplamı: {even_sum}")
+# print(sum(list_odd))
+# print(sum(list_even))
