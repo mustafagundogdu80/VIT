@@ -7,8 +7,6 @@
 # else:
 #     print("Fiyatları eşittir")
 """---------------------------------------------------"""
-from random import randint
-
 # number = input("Sayı Giriniz: ")
 # if (number) == 1 :
     # print("Kazandınız.")
@@ -75,6 +73,7 @@ from random import randint
 #     counter += 1
 
 """---------------------------------------------------"""
+# from random import randint
 # tahmin_sayi = randint(1,10)
 # input_sayi = -1
 # test_counter = 0
